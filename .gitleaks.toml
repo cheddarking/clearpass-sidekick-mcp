@@ -1,0 +1,10 @@
+title = "ClearPass Sidekick secret scanning"
+[extend]
+useDefault = true
+
+[[rules]]
+id = "generic-api-key"
+[[rules.allowlists]]
+description = "SNMP privacy-key variable reference, not a credential literal"
+regexTarget = "match"
+regexes = ['''privacy_key":\s*snmpv3_privacy_key''']

@@ -1,0 +1,74 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+
+# Environment variables
+.env
+.credentials/
+
+# Virtual environments
+.venv/
+.venv-refactor/
+venv/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+# Task files
+tasks.json
+tasks/ 
+
+# Python run
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+# Live-harness artifacts (results + inventory snapshots)
+tests/live/_artifacts/
+
+# Generated codebase snapshots (repomix) — never commit; they become stale duplicates
+repomix-output.*
+
+# Local browser tooling
+.gstack/
+
+# Understand-Anything scratch (the graph itself IS committed; these are disposable)
+.ua/.trash-*/
+.ua/tmp/
+
+# Local credentials, environments, and generated development artifacts
+.env
+.env.*
+!.env.example
+.venv/
+.venv-*/
+venv/
+.claude/settings.local.json
+.cursor/mcp.json
+.kilocode/
+.opencode/
+.ua/
+.coverage*
+*repomix-output*
+*.code-workspace
